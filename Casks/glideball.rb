@@ -1,6 +1,6 @@
 cask "glideball" do
-  version "2.9"
-  sha256 "cb1db483ec3f56beef716daba4197be0ec36b4095f3a9a0d35c39eda9e66e151"
+  version "2.9.1"
+  sha256 "c3460a9e3e316244f6ce9269f05ee1c6a21282e7046af17589e75a4c899e14c3"
 
   url "https://github.com/leviholliday/glideball/releases/download/v#{version}/Glideball.zip"
   name "Glideball"
