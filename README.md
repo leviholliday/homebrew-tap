@@ -31,6 +31,21 @@ brew install --cask leviholliday/tap/<cask-name>
 ## Current packages
 
 - `glideball` (cask)
+- `cedarlogic` (cask)
+
+## CedarLogic
+
+[CedarLogic](https://cedarlogic.netlify.app/) is a digital logic simulator. Install the Mac app with:
+
+```bash
+brew install --cask leviholliday/tap/cedarlogic
+```
+
+The cask installs the newest full release from
+[CedarLogic-Releases](https://github.com/leviholliday/CedarLogic-Releases) (Apple silicon,
+macOS 14 or newer). After that the app updates itself. It isn't notarized, so the first launch
+needs **Open Anyway** in System Settings > Privacy & Security. The cask's source and its bump
+script live in the CedarLogic repo under `packaging/homebrew/`.
 
 ## Recommended pattern
 
